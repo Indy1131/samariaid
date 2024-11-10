@@ -137,9 +137,31 @@ nav {
     overflow: hidden;
 }
 
-.sticky img {
-    height: 100vh;
-    width: min(auto, 100px);
+.scroll > div {
+    flex: 1;
+}
+
+.hospital {
+    background-image: url("./assets/images/Hospital.jpg");
+    background-size: cover;
+    align-self: stretch;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.hospital img {
+    padding-left: 400px;
+    /* background-color: red; */
+    width: 300px;
+}
+
+.end {
+    background-image: url("./assets/images/endhospital.jpg");
+    background-size: cover;
+    align-self: stretch;
+    width: 100vw;   
 }
 
 .demo {
@@ -399,7 +421,7 @@ p {
     border-bottom-right-radius: 60px;
     border-top-right-radius: 10px;
     box-shadow: 0px 5px 10px -10px #11025B;
-    border-left: 10px solid #FF0484;
+    border-left: 10px solid white;
     box-sizing: border-box;
     padding-inline: 20px;
     transition: all .5s cubic-bezier(0.23, 1, 0.320, 1);
