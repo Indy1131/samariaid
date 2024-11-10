@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>SamariAID</title>
+    <meta content="minimum-scale=1.0, width=device-width, maximum-scale=0.6667, user-scalable=no" name="viewport" />
+
+    <!-- <link rel="icon" type="image/x-icon" href="Favicon.ico"> -->
+    <link rel="stylesheet" href="style2.css">
+    <link rel="manifest" href="manifest.json" crossorigin="use-credentials">
+</head>
+
+<body id="body" class="noScroll">
+    <div class="emergency" id="emergency"><img src="images/Phone.png">Press to call 911</div>
+    <div class="titleBar" id="titleBar">Arterial Wound Detected
+    </div>
+    <div class="tempBar">Scan a wound to begin.<div class="logo"></div>
+    </div>
+    <div class="stepNum" id="stepNum">
+        <h1 id="instructNum">Step 1</h1>
+        <div class="instructions" id="instructions">
+            <p>Wash your hands thoroughly using soap and water.</p>
+        </div>
+        <div class="buttons" id="buttons">
+            <button class="bottomButton" onclick="prev()" id="prev">Prev</button>
+            <button class="bottomButton" onclick="next()" id="next">Next</button>
+        </div>
+    </div>
+
+    <button class="testButton" onclick="simulate()"></button>
+
+    <script src="scan.js"></script>
+</body>
+
+</html>
