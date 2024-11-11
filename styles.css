@@ -142,8 +142,9 @@ nav {
 }
 
 .hospital {
-    background-image: url("./assets/images/Hospital.jpg");
-    background-size: cover;
+    background-image: url("./assets/images/atlanta.jpg");
+    filter: blur(8px);
+    background-size: contain;
     align-self: stretch;
     width: 100vw;
     display: flex;
@@ -155,13 +156,6 @@ nav {
     padding-left: 400px;
     /* background-color: red; */
     width: 300px;
-}
-
-.end {
-    background-image: url("./assets/images/endhospital.jpg");
-    background-size: cover;
-    align-self: stretch;
-    width: 100vw;   
 }
 
 .demo {
@@ -237,19 +231,22 @@ nav {
     text-align: right;
     margin-top: 30px;
     margin-bottom: 10px;
-    font-size: 2em;
+    font-size: 2.5em;
     padding-inline: 40px;
 }
 
 .demo .bottom-text p {
     text-align: right;
-    font-size: 1.2em;
+    font-size: 1.7em;
     margin-bottom: 100px;
     padding-inline: 40px;
 }
 
 .demo video {
-    width: 100px;
+    position: absolute;
+    border-radius: 30px;
+    width: 270px;
+    top: 85px;
     z-index: 23;
 }
 
@@ -356,7 +353,7 @@ nav {
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 400px;
+    width: 500px;
     background-color: white;
     box-shadow: -5px -5px 10px -10px #11025B;
     border-top-left-radius: 60px;
@@ -369,13 +366,13 @@ p {
 }
 
 .text h1 {
-    font-size: 1.8em;
+    font-size: 2.5em;
     padding-top: 15px;
 }
 
 
 .text p {
-    font-size: 1em;
+    font-size: 1.3em;
     padding-bottom: 10px;
 }
 
@@ -518,4 +515,19 @@ footer h2 {
     padding-inline: 20px;
     font-size: 1em;
     font-family: InterLight;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: #11025B;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #11025B;
+    text-decoration: none;
+
 }
