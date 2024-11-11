@@ -91,6 +91,7 @@ nav {
 
 .hero-container {
     background-image: url("./assets/images/Hands.png");
+    /* background-color: red; */
     /* object-fit: contain; */
     background-position: center right;
     background-size: cover;
@@ -99,6 +100,7 @@ nav {
     top: 0;
     flex: 1;
     overflow: hidden;
+    z-index: 2;
 }
 
 .sticky-container {
@@ -126,7 +128,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     /* background-color: aqua; */
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .scroll > div {
@@ -134,6 +136,11 @@ nav {
 }
 
 .hospital {
+    /* background-image: url("./assets/images/atlanta.jpg"); */
+    /* box-shadow: -10px 0px 30px -5px #11025B; */
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover;
     align-self: stretch;
     width: 100vw;
     display: flex;
@@ -142,8 +149,8 @@ nav {
 }
 
 .hospital img {
-    padding-left: 400px;
     /* background-color: red; */
+    padding-right: 10%;
     width: 300px;
 }
 
